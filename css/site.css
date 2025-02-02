@@ -60,10 +60,10 @@ body{
     }
 }
 
-@media only screen and (max-width:770px){
+@media only screen and (max-width:767px){
     .portcard{
-        width: 280px;
-        height: 280px;
+        width: 400px;
+        height: 300px;
         font-size: 22pt;
         line-height: 220%;
         transition: 0.4s;
