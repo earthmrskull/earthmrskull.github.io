@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(0, 0, 0, .1);
+    /* border: solid rgba(0, 0, 0, .15); */
+    /* box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15); */
+}
+
+.header-img{
+    width: 10em;
+    margin: 0 auto;
+}
+
+.main-container{
+    z-index: 1;
+    background-color: white;
+    /* min-height: 100vh; */
+    box-shadow: 0 .5em 1.5em rgba(0, 0, 0, .1), 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.section-title{
+    text-align: center;
+}
+
+.portcard{
+    width: 320px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-content: end;
+    font-style: italic;
+    color: white;
+    border-radius: 20px;
+    text-shadow: 2px 2px 1px black, 0px 0px 5px black;
+    font-size: 18pt;
+    transition: 0.2s;
+    box-shadow: .1em .1em 0.25em rgba(0, 0, 0, 0.45);
+    line-height: 190%;
+}
+
+.portcard span{
+    z-index: 1;
+}
+
+.portcard:hover{
+    filter: brightness(90%) contrast(110%);
+    transition: 0.4s;
+}
+
+.protbox a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:990px){
+    .portcard{
+        width: 280px;
+        height: 280px;
+        font-size: 22pt;
+        line-height: 220%;
+        transition: 0.4s;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .portcard{
+        width: 280px;
+        height: 280px;
+        font-size: 22pt;
+        line-height: 220%;
+        transition: 0.4s;
+    }
+}
